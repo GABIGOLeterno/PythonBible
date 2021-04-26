@@ -21,4 +21,3 @@ while True:
             known_users.append(name)
         elif add == "n":
             print("Fuck you, we don't want you anymore!")
-            
