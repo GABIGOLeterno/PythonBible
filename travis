@@ -1,0 +1,24 @@
+known_users = ["Gabigol", "BH", "Arrasca", " Gerson", "Arão", "Jj", "Diego"]
+
+while True:
+    print("Hi, my name is Travis.")
+    name = input("What is your name?: ").strip().capitalize()
+
+    if name in known_users:
+        print("Hey, welcome back, {}!".format(name))
+        remove = input('Would you like to be removed from our system(y/n)?: ').strip().lower()
+
+        if remove == "y":
+            known_users.remove(name)
+        elif remove == "n":
+            print("Alright,then!")
+
+    else:
+        print("Nice to meet you, {}!".format(name))
+        add = input('Would you like to be added to our system(y/n)?: ').strip().lower()
+
+        if add == "y":
+            known_users.append(name)
+        elif add == "n":
+            print("Fuck you, we don't want you anymore!")
+            
