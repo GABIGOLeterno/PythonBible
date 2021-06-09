@@ -1,8 +1,8 @@
 films = {
     "Godfather": [18, 5],
-    "Wonder Woman": [15, 3],
-    "Batman": [3, 5],
-    "Space Jam 2": [12, 5]
+    "Wonder Woman": [15, 6],
+    "Batman": [12, 5],
+    "Space Jam 2": [3, 5]
 }
 
 while True:
